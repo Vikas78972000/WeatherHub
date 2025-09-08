@@ -8,7 +8,6 @@ import SunnyIcon from '@mui/icons-material/Sunny';
 import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
 
 export default function InfoBox({info}){
-    const INIT_URL = "https://images.unsplash.com/photo-1641970304222-b2b332808a4b?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
     const HOT_URL = "https://images.unsplash.com/uploads/14121010130570e22bcdf/e1730efe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90JTIwd2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D";
     const COLD_URL = "https://images.unsplash.com/photo-1564314968303-86c5df2b9a4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Q09MRCUyMFdFQVRIRVJ8ZW58MHx8MHx8fDA%3D";
     const RAIN_URL = "https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8UkFJTiUyMFdFQVRIRVJ8ZW58MHx8MHx8fDA%3D";
