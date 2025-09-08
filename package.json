@@ -1,10 +1,13 @@
 {
+  "homepage": "https://vikas78972000.github.io/WeatherHub/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -15,6 +18,7 @@
     "@fontsource/roboto": "^5.2.6",
     "@mui/icons-material": "^7.3.2",
     "@mui/material": "^7.3.2",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
